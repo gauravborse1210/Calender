@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+}
+
+.date_input {
+  border: none;
+  width: 100%;
+  outline: none;
+}
+
+.calender-icon {
+  color: #222222c2;
+  cursor: pointer;
+}
+
+.flatpickr-calendar {
+  background: #fffbe7;
+  border: 2px solid #222;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.flatpickr-day {
+  color: #222;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.flatpickr-day:hover {
+  /* background: #ff?e082; */
+}
+
+.flatpickr-day.selected,
+.flatpickr-day.startRange,
+.flatpickr-day.endRange {
+  background: #ffb300;
+  color: #fff;
+}
+
+.flatpickr-months {
+  background: #fffde7;
+  border-bottom: 1px solid #ffb300;
+}
+
+.flatpickr-day.today {
+  border: 1px solid #ffb300;
+}
