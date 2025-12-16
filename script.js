@@ -10,3 +10,4 @@ flatpickr(input, {
 icon.addEventListener("click", () => {
   input.focus();
 });
+
